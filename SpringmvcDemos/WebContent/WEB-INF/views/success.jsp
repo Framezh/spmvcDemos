@@ -6,6 +6,8 @@
 <title>Success.jsp page</title>
 </head>
 <body>
-	成功。。。<h1>${username}</h1>
+	成功。。。
+	<h3>${user.userName}</h3>
+	<h5>${message}</h5>
 </body>
 </html>

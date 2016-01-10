@@ -12,18 +12,6 @@ public class User {
 	String password;
 	int age;
 
-	public User() {
-		super();
-		// TODO Auto-generated constructor stub
-	}
-	public User(int id, String name, String password, int age) {
-		super();
-		this.id = id;
-		this.userName = userName;
-		this.password = password;
-		this.age = age;
-	}
-
 	public int getId() {
 		return id;
 	}
